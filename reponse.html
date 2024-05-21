@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarSelection: Site de vente de voiture</title>
+    <link rel="icon" href='https://i.pinimg.com/236x/4a/76/1b/4a761b04e8e6f74f7cab5b52516f3a35.jpg' type="image/jpg">
+
+</head>
+
+<style>
+        .menu {
+            background-color: #0e31a56c; 
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 60%; /* Ajustez cette largeur selon vos besoins */
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centrer le contenu */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #infoSection {
+    display: none; /* Cache la section par défaut */
+    margin-top: 20px;
+    padding: 10px;
+        }
+        #infoSection2 {
+    display: none; /* Cache la section par défaut */
+    margin-top: 20px;
+    padding: 10px;
+        }
+        .checkbox-container-criteres {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
+.logo-left {
+            left: 10px;
+            position: absolute; 
+            top: 20%; 
+            transform: translateY(-50%); 
+            width: 350px; 
+            height: auto;
+        }
+        .logo-right {
+            right: 10px; 
+            position: absolute; 
+            top: 20%; 
+            transform: translateY(-50%); 
+            width: 350px; 
+            height: auto;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 20%; 
+            height: 200px; /* Ajustez la hauteur selon vos besoins */
+        }
+        .banner-text {
+            color: #000000; 
+            font-size: 24px; 
+            font-weight: bold; 
+        }
+        .banner4{
+    background-color: #fff;
+    height:17px
+}
+
+       
+     
+</style>
+
+<body>
+    
+<div class="banner">
+    <img src="https://i.pinimg.com/564x/48/6e/32/486e32d2271b5a3774217d33a1d9c778.jpg"  class="logo-left">
+          
+    <h1 class="banner-text">Bienvenue chez CarSelection !!</h1>
+          
+    <img src="https://i.pinimg.com/564x/48/6e/32/486e32d2271b5a3774217d33a1d9c778.jpg" class="logo-right"> 
+</div>
+<div class="banner4">  </div>
+<div class="banner4">  </div>
+
+    <div class="menu"> 
+
+        <div >
+            <h3>Caractéristiques du Véhicule</h3>
+            <button id="infoButton2" onclick="toggleInfo2()" >Caracteristiques du vehicule</button>
+            <div id="infoSection2" style="display: none;">
+                {% for key, value in input_data.items() %}
+               
+                    <span >{{ key }}:</span>
+                    <span>{{ value }}</span>
+                    <br>
+                {% endfor %}
+        </div></div><br>
+
+        <h2 >Le meilleur prix pour votre voiture est : </h2>
+        <p>Prix estimé: {{ predicted_price }} €</p>
+        
+        <button id="infoButton" onclick="toggleInfo()" >Afficher des recherches similaires</button>
+        <div id="infoSection" style="display: none;">
+            <h2>Informations Supplémentaires</h2>
+
+            <div >
+                <h3>Critères selectionnées</h3>
+                    {% for value in critere %}
+                        <span >{{ value }}</span>
+                   
+                    {% endfor %}
+            </div>
+            <br>
+            <p>Voici les urls des voitures similaires: </p>
+            {% if urls %}
+            <ul>
+                {% for url in urls %}
+                <li><a href="{{ url }}">{{ url }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Aucun critère sélectionné pour des recherches similaires.</p>
+        {% endif %}</div><br>
+
+    <a href="/" >Retour à la page d'accueil</a>
+    </div>
+</body>
+
+
+<script>
+    function toggleInfo() {
+            var infoSection = document.getElementById('infoSection');
+            if (infoSection.style.display === "none") {
+                infoSection.style.display = "block";
+            } else {
+                infoSection.style.display = "none";
+            }
+        }
+
+        function toggleInfo2() {
+            var infoSection = document.getElementById('infoSection2');
+            if (infoSection.style.display === "none") {
+                infoSection.style.display = "block";
+            } else {
+                infoSection.style.display = "none";
+            }
+        }
+        </script>
+</html>

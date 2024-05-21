@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarSelection: Site de vente de voiture</title>
+    <link rel="icon" href='https://i.pinimg.com/236x/4a/76/1b/4a761b04e8e6f74f7cab5b52516f3a35.jpg' type="image/jpg">
+
+</head>
+<style>
+.banner {
+    background-color: #ffff; 
+    padding: 20px;
+    text-align: center; 
+    position: relative; }
+.banner-text {
+    color: #000000; 
+    font-size: 24px; 
+    width: 95%;
+    font-weight: bold; }
+.banner-text2 {
+    color: #000000; 
+    font-size: 20px; 
+    font-weight: bold; }
+.banner2{
+    background-color: #09216dc9; 
+    height: 7px; 
+    margin: 0; 
+    padding: 0;
+    text-align: center; 
+    position: relative;
+}
+.banner3{
+    background-color: #ffff; 
+    height: 35px; 
+    margin: 0; 
+    padding: 0;
+    text-align: center; 
+    position: relative;
+    background-image: url('https://i.pinimg.com/564x/4c/8b/f5/4c8bf5d0f2883fbb9a231e8d81df5b5b.jpg');
+    background-size: contain; 
+    background-position: center; 
+}  
+.banner4{
+    background-color: #fff;
+    height:17px
+}
+.introduction {
+    /*background-color: #a3cefc93;*/
+    padding: 20px;
+    width: 85%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.sponsor{
+    background-color: #ffff; 
+    height: 52px; 
+    margin: 0; 
+    padding: 0;
+    text-align: center; 
+    position: relative;
+}
+.taille{
+    color: #000000; 
+    font-size: 40px; /*#b6c4f1,  width: 80%;, background-color: #9d9d9eee; */ 
+    padding: 20px;
+    width: 80%;
+    border-style: thin ;
+    border-width: 2px;
+    border-spacing: 2cm;
+    text-align: center; 
+    position: relative;
+    margin: auto; 
+}
+.logo-left {
+    left: 10px;
+    position: absolute; 
+    top: 40%; 
+    transform: translateY(-50%); 
+    width: 350px; 
+    height: auto;  }
+  
+.logo-right {
+    right: 10px; 
+    position: absolute; 
+    top: 40%; 
+    transform: translateY(-50%); 
+    width: 350px; 
+    height: auto; }
+.logo2 {
+    left: 10px; 
+    position: absolute; 
+    top: 40%; 
+    transform: translateY(-50%); 
+    width: 50px; 
+    height: auto; }
+.presentation{
+    color: #000000; 
+    position: right; 
+    font-size: 18px;
+}
+.logosponso {
+        right: 10px; 
+        width: 100px; 
+        }
+.taille2{
+    text-align: center; 
+    color: #000000; 
+    font-size: 18px;
+}
+.taille3{
+    text-align: center; 
+    color: #ffff; 
+    font-size:27px;
+    
+}
+
+.tailleform {
+    padding: 10px;
+    font-size: 13px;
+    width: 100%; 
+    display: flex; /* Utiliser un conteneur flex */
+    flex-direction: row; /* Aligner les éléments horizontalement */
+    justify-content: space-between; /* Espacer les éléments également */
+    align-items: center; /* Centrer les éléments verticalement */
+    margin-bottom: 30px;
+}
+
+.tailleform input {
+    flex: 1; /* Faire en sorte que les champs d'entrée occupent tout l'espace disponible */
+}
+.logo-list {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: left; 
+        }
+.logo-list img {
+    width: 15px; 
+    margin-bottom: 10px; /* Ajoute un espace entre chaque logo */
+        }
+.logo-container {
+    text-align: center; /* Centre les images horizontalement */
+        }
+.logo-container img {
+    width: 40px; /* Ajustez la taille des images selon vos besoins */
+    margin-right: 10px; /* Ajoute un espacement entre les images */
+    display: inline-block; /* Affiche les images côte à côte */
+        }
+.menu {
+    background-color: #0e31a56c; /*#e5f1fff1*/
+    background-size: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+.menu p {
+    font-size: 16px;
+    color: #333;
+        }
+
+.menu select,
+.menu input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+        }
+
+.menu button {
+    background-color: #02193284;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+        }
+
+.menu button:hover {
+    background-color: #0056b3;
+        }
+.container {
+    display: flex; /* Utilise un affichage flex pour aligner les éléments côte à côte */
+    justify-content: space-between; /* Répartit l'espace disponible entre les éléments */
+    margin-bottom: 10px; /* Ajoute un espace en bas des conteneurs */
+        }
+
+        /* Styles pour les champs de saisie */
+    select, input[type="text"] {
+        width: 30%; /* Définit la largeur des champs */
+        padding: 5px; /* Ajoute un rembourrage autour des champs */
+        box-sizing: border-box; /* Inclut le rembourrage et la bordure dans la largeur totale */
+        }
+.curseurs-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; /* Espacement égal entre les curseurs */
+    align-items: center; /* Alignement vertical des curseurs */
+}
+.curseur {
+    margin-bottom: 20px;
+    width: 80%; /* Ajout de cette règle pour définir la largeur des curseurs */
+}
+
+.curseur label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.curseur input[type="range"] {
+    width: 100%; /* Ajustement de la largeur des curseurs */
+    -webkit-appearance: none;
+    background-color: #0e31a56c;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.curseur input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #0056b3;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.curseur output {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%; /* Ajustement de la largeur des sorties */
+    text-align: center; /* Centrage du texte */
+}
+
+
+
+.checkbox-container-criteres input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox-container-criteres label {
+    margin-right: 20px; /* Ajustez cette valeur selon vos besoins */
+}
+
+</style>
+<body>
+
+<div class="banner">
+    <img src="https://i.pinimg.com/564x/48/6e/32/486e32d2271b5a3774217d33a1d9c778.jpg"  class="logo-left">
+          
+    <h1 class="banner-text">Bienvenue chez CarSelection !!</h1>
+    <h1 class="banner-text2"> Les meilleurs du marché pour choisir la voiture qui vous plait ! </h1>
+          
+    <img src="https://i.pinimg.com/564x/48/6e/32/486e32d2271b5a3774217d33a1d9c778.jpg" class="logo-right">
+    
+</div>
+<div class="banner2">  </div>
+<div class="banner3">  </div>
+
+<div class="introduction">
+    <h1 class="taille2"> A propos de nous : </h1>
+    <span class="presentation"> Notre site propose des voitures d'occasion à vendre pour tous les goûts <br><br> </span>
+    <span class="presentation"> Entrez les critères que vous recherchez, et nous vous proposerons la meilleure voiture au prix le moins élevé ! <br><br></span> 
+</div>
+<div class="banner3">  </div>
+<div class="banner2">  </div>
+<div class="banner4">  </div>
+<div class="banner4">  </div>
+
+<div class="menu">
+    <h1 class="taille3">Caracteristiques pour votre voiture: </h1>
+<p class="taille"> 
+    
+<form action="/predict" method="get" >
+    <select id="carburant" name="choix_carburant" required>
+        <option value="" disabled selected>Type de carburant</option>
+        <option value="Essence">Essence</option>
+        <option value="Diesel">Diesel</option>
+        <option value="GPL ou GNL">GPL ou GNL</option>
+        <option value="Electrique">Electrique</option>
+        <option value="Hybride">Hybride</option>
+      </select>
+    
+
+    <select id="marque" name="choix_marque" required>
+        <option value="" disabled selected>Marque</option></select>
+
+ <script>
+    var marques = [
+            "Abarth", "Alfa romeo", "Audi", "Bmw", "Chevrolet", "Chrysler", "Citroen", "Dacia", "Fiat",
+            "Ford", "Honda", "Hyundai", "Infiniti", "Jaguar", "Jeep", "Kia", "Lamborghini", "Land-rover",
+            "Lexus", "Maserati", "Mazda", "Mercedes", "Mg", "Mini", "Mitsubishi", "Nissan", "Opel",
+            "Peugeot", "Porsche", "Renault", "Seat", "Skoda", "Smart", "Ssangyong", "Suzuki", "Tesla",
+            "Toyota", "Volkswagen", "Volvo"
+        ];
+    var selectElement = document.getElementById("marque");
+    for (var i = 0; i < marques.length; i++) {
+      var option = document.createElement("option");
+      option.text = marques[i];
+      option.value = marques[i];
+      selectElement.add(option);
+        }
+  </script>
+
+
+   <select id="modele" name="choix_modele" required>
+        <option value="" disabled selected>Modèle de la voiture</option></select>
+        <script>
+            var marquesModeles = {
+                "Abarth": ["500","595"],
+                "Alfa romeo": ["Giulietta","Mito","Spider","Stelvio"],
+                "Audi": ["A1","A2", "A3", "A4", "A5", "A7","A8","E-tron","Q2","Q3", "Q4","Q5","Q7","Q8","S1","S3","S5","Sq5","Tt"],
+                "Bmw":["Serie 1","Serie 2","Serie 3","Serie 4","Serie 5","Serie 7","X1","X3","X4","X5","X6"],
+                "Chevrolet":["Captiva","Matiz",'Spark'],
+                "Chrysler":["Voyager"],
+                "Citroen": ["Berlingo", "C1", "C2", "C3", "C4", "C5", "C-zero", "Ds3", "Ds4", "Ds5", "Ds7", "Grand C4", "Nemo", "Saxo"],
+                "Dacia": ["Dokker", "Duster", "Lodgy", "Logan", "Sandero", "Spring"],
+                "Fiat": ["500", "Grande punto", "Panda", "Punto", "Tipo", "Ulysse"],
+                "Ford": ["C-max", "Ecosport", "Fiesta", "Focus", "Kuga", "Mondeo", "Mustang"],
+                "Honda": ["E ny1", "Honda e"],
+                "Hyundai": ["I10", "I20", "I30", "I40", "Ioniq", "Kona", "Tucson"],
+                "Infiniti": ["Q50"],
+                "Jaguar": ["E-pace", "F-pace", "Xe", "Xf"],
+                "Jeep": ["Avenger", "Cherokee", "Compass", "Grand cherokee", "Renegade"],
+                "Kia": ["Carnival", "Ev6", "Niro", "Picanto", "Rio", "Soul", "Sportage"],
+                "Lamborghini": ["Aventador"],
+                "Land-rover": ["Defender", "Range rover", "Range sport"],
+                "Lexus": ["Ct", "Is", "Nx", "Rx", "Rz", "Ux"],
+                "Maserati": ["Levante", "Quattroporte"],
+                "Mazda": ["Cx-3", "Cx-5", "Mazda3", "Mazda6", "Mx-30"],
+                "Mercedes": ["Classe a", "Classe b", "Classe c", "Classe cla", "Classe cls", "Classe e", "Classe gla", "Classe glc", "Classe gle", "Classe glk", "Classe s", "Clk", "Eqa", "Sl"],
+                "Mg": ["Marvel R", "Mg zs", "Mg4", "Mg5"],
+                "Mini": ["Cooper", "Countryman", "One"],
+                "Mitsubishi": ["Asx", "Space star"],
+                "Nissan": ["370", "Ariya", "Juke", "Leaf", "Micra", "Murano", "Navara", "Note", "Qashqai", "X-trail"],
+                "Opel": ["Antara", "Astra", "Combo vp", "Corsa", "Crossland x", "Grandland x", "Insignia", "Meriva", "Mokka", "Zafira"],
+                "Peugeot": ["107", "108", "206", "207", "208", "307", "308", "508", "2008", "3008", "4008", "5008", "Expert tepee", "Ion", "Partner tepee", "Rcz", "Rifter"],
+                "Porsche": ["911 (996)", "Cayenne", "Cayman", "Macan", "Panamera", "Taycan"],
+                "Renault": ["Captur", "Clio", "Espace", "Grand Scenic", "Kadjar", "Kangoo", "Koleos", "Laguna", "Megane", "Scenic", "Talisman", "Trafic", "Twingo", "Twizy", "Zoe"],
+                "Seat": ["Altea xl", "Ibiza", "Leon"],
+                "Skoda": ["Enyaq", "Fabia", "Karoq", "Octavia"],
+                "Smart": ["Forfour", "Fortwo"],
+                "Ssangyong": ["Korando", "Rexton", "Tivoli"],
+                "Suzuki": ["Jimny", "Sx4", "Vitara"],
+                "Tesla": ["Model 3", "Model x", "Model y"],
+                "Toyota": ["Auris", "Aygo", "Bz4x", "Camry", "C-hr", "Corolla", "Land cruiser", "Prius", "Proace city", "Rav 4", "Verso", "Yaris"],
+                "Volkswagen": ["Amarok", "Caddy", "Coccinelle ii", "Golf", "Id.3", "Id.4", "Id.7", "Id.buzz", "Passat", "Polo", "Scirocco", "T-cross", "Tiguan", "Touareg", "Touran", "T-roc", "Up"],
+                "Volvo": ["C30", "C40", "V40", "V50", "V70", "Xc40", "Xc90"]
+            };
+        
+            var marqueSelect = document.getElementById("marque");
+            var modeleSelect = document.getElementById("modele");
+        
+            // Fonction pour mettre à jour les modèles en fonction de la marque sélectionnée
+            function updateModeles() {
+                var marque = marqueSelect.value;
+                modeleSelect.innerHTML = "<option value='' disabled selected>Modèle de la voiture</option>";
+        
+                if (marquesModeles.hasOwnProperty(marque)) {
+                    var modeles = marquesModeles[marque];
+                    for (var i = 0; i < modeles.length; i++) {
+                        var option = document.createElement("option");
+                        option.text = modeles[i];
+                        option.value = modeles[i];
+                        modeleSelect.add(option);
+                    }
+                }
+            }
+        
+            // Écoutez les changements sur la sélection de marque
+            marqueSelect.addEventListener("change", updateModeles);
+        
+            // Mettre à jour les modèles lors du chargement initial de la page
+            updateModeles();
+        </script>
+
+  
+    <select id="vitesse" name="choix_vitesse" required>
+        <option value="" disabled selected>Boite de vitesse</option>
+        <option value="Manuelle">Manuelle</option>
+        <option value="Automatique">Automatique</option>
+        <option value="Semi automatique">Semi automatique</option>
+    </select>
+    
+    <select id="colors" name="choix_couleur" placeholder="Couleur" required>
+        <option value="" disabled selected>Couleur</option>
+    <script>
+      var couleurs = [
+            "Argent", "Beige", "Blanc", "Bleu", "Bordeaux", "Bronze", "Brun", "Cuivre", "Gris", 
+            "Ivoire", "Jaune", "Kaki", "Marron", "Mauve", "Metallise", "Noir", "Or", "Orange", 
+            "Rose", "Rouge", "Vert", "Violet"
+        ];
+        var selectElement = document.getElementById("colors");
+        for (var i = 0; i < couleurs.length; i++) {
+            var option = document.createElement("option");
+            option.text = couleurs[i];
+            option.value = couleurs[i];
+            selectElement.add(option);
+        }
+    </script>
+     </select>
+
+<div class="curseurs-container">
+    <div class="curseur">
+
+        <label for="puissance" title="puissance fiscale qui est différente de celle commerciale">Puissance fiscale en CV (entre 1 et 68)</label>
+        <input type="range" id="puissance" name="puissance" min="1" max="68" oninput="update(this.value)" required>
+        <output for="puissance" id="puissanceValue"></output>
+    </div>
+
+    <div class="curseur">
+    <label for="km">Kilométrage</label>
+    <input type="range" id="kilometrage" name="kilometrage" min="140" max="348000" oninput="updateKilometrage(this.value)" required>
+    <output for="kilometrage" id="kmOutput"></output>
+</div>
+  <div class="curseur">
+    <label for="Conso">Consommation de carburant</label>
+    <input type="range" id="Conso" name="Conso" min="0.0" max="9.8" step="0.1" oninput="updateConso(this.value)" required>
+    <output for="Conso" id="ConsoOutput"></output>
+</div>
+  <div class="curseur">
+    <label for="Emission">Emission de CO2</label>
+    <input type="range" id="Emission" name="Emission" min="0" max="370" oninput="updateEmission(this.value)" required>
+    <output for="Emission" id="EmissionOutput"></output>
+</div>
+
+</div>
+  
+<script>
+    function update(value) {
+        document.getElementById("puissanceValue").textContent = value;
+    }
+function updateKilometrage(value) {
+    document.getElementById("kmOutput").textContent = value;
+}
+  function updateConso(value) {
+    document.getElementById("ConsoOutput").textContent = value;
+}
+  function updateEmission(value) {
+    document.getElementById("EmissionOutput").textContent = value;
+}
+
+</script>
+
+    <input type="number" id="portes" name="portes" min="2" max="5" placeholder="Nombre de portes" required>
+    <input type="number" id="places" name="places" min="2" max="8" placeholder="Nombre de places" required><br>
+    <input type="number" id="annee" name="annee" min="2000" max="2021" placeholder="Année d'achat de la voiture" required>
+
+   
+<button type="submit">Predire</button>
+<br>
+
+    <form action="/predict" method="post" onsubmit="return displaySelectedCriteria()">
+ 
+        <div>
+            <h3>Sélectionnez vos critères pour une recommandation de prix (entre 3 et 7) :</h3>
+            <div class="checkbox-container-criteres">
+                <input type="checkbox" id="Annee" name="critere1" value="Annee">
+                <label for="Annee">Annee</label>
+                <input type="checkbox" id="Prix" name="critere2" value="Prix">
+                <label for="Prix">Prix</label>
+                <input type="checkbox" id="Marque" name="critere3" value="Marque">
+                <label for="Marque">Marque</label>
+                <input type="checkbox" id="Modele" name="critere4" value="Modele">
+                <label for="Modele">Modèle</label>
+                <input type="checkbox" id="Transmission" name="critere5" value="Transmission">
+                <label for="Transmission">Boite de vitesse</label>
+                <input type="checkbox" id="Kilometrage" name="critere6" value="Kilometrage">
+                <label for="Kilometrage">Kilométrage</label>
+                <input type="checkbox" id="Puissance" name="critere7" value="Puissance">
+                <label for="Puissance">Puissance fiscale</label>
+            </div>
+            <br>
+            <br>
+            <button type="submit">Predire avec les criteres</button>
+
+        </form>
+    
+    </div>
+    <br>
+    </p>
+</form>
+    
+    
+<script>
+
+    function validateCriteria() {
+        var checkboxes = document.querySelectorAll('input[name="criteres"]:checked');
+        if (checkboxes.length < 3 || checkboxes.length > 7) {
+            alert("Veuillez sélectionner entre 3 et 7 critères.");
+            return false;
+        }
+        return true;}
+    
+</script>
+</div>
+
+</form>
+
+<div class="sponsor">
+    <ul class="logo-container">
+    <img src="https://i.pinimg.com/236x/36/82/5e/36825eafea6580cf679f8c758246c43f.jpg" alt="Logo 1">
+    <img src="https://i.pinimg.com/236x/0e/de/fd/0edefd62efd2340eb1f60acaf7c29464.jpg" alt="Logo 2">
+    <img src ="https://i.pinimg.com/236x/d3/5c/ae/d35cae21ea8bc59a371ff3e2355408fa.jpg" alt="Logo 12">
+    <img src="https://i.pinimg.com/236x/59/1a/d3/591ad3f139557ecb6d4bea8b4f99cee4.jpg" alt="Logo 3">
+    <img src="https://i.pinimg.com/236x/3a/de/47/3ade47cf06a91d0c81f494cad55318c0.jpg" alt="Logo 4">
+    <img src="https://i.pinimg.com/236x/46/5a/55/465a55aa7f8578b4a9e3fbb060fc0418.jpg" alt="Logo 5">
+    <img src="https://i.pinimg.com/236x/13/37/61/133761227bfdbea898480ce09dc10c99.jpg" alt="Logo 6">
+    <img src="https://i.pinimg.com/236x/49/36/b6/4936b605b01f3bc8ff77bad4889cc5cd.jpg" alt="Logo 7">
+    <img src ="https://i.pinimg.com/236x/81/26/11/812611c18c61bcebf60bf51e4a434210.jpg" alt="Logo 8">
+    <img src ="https://i.pinimg.com/236x/d2/a6/ec/d2a6ec1f3b33bbe2cec42d32c511a003.jpg" alt="Logo 9">
+    <img src ="https://i.pinimg.com/236x/2b/04/fd/2b04fd2b361abae98dfe64662450d882.jpg" alt="Logo 10">
+    <img src ="https://i.pinimg.com/236x/dd/24/04/dd2404c5247a4e81105d5c645c2adb4a.jpg" alt="Logo 14">
+    <img src ="https://i.pinimg.com/236x/db/65/ce/db65ceecc098e7f80f5c219541031670.jpg" alt="Logo 11">
+    <img src ="https://i.pinimg.com/564x/b5/2f/a8/b52fa8103913124e16f9f8af082602b5.jpg" alt="Logo 13">
+    <img src ="https://i.pinimg.com/236x/d9/e5/d3/d9e5d31c545f5ee163bd8b43acc1fd8b.jpg" alt="Logo 15">
+
+
+</ul>
+
+</div>
+
+</body>
+
+</html>
