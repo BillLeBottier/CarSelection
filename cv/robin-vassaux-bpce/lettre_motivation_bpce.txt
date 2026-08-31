@@ -1,0 +1,21 @@
+Madame, Monsieur,
+
+C'est avec un vif intérêt que je vous adresse ma candidature pour un poste au sein du pôle Data & CRM de la Direction Marketing et Data Client de BPCE Financement. Diplômé en 2025 de l'ESME en Ingénieur Big Data et Digital Marketing, je souhaite mettre mes compétences en data science au service d'un acteur majeur du crédit à la consommation, dans un environnement où la donnée client est au cœur de la performance marketing.
+
+Ce poste correspond précisément à la direction que je souhaite donner à ma carrière : combiner rigueur analytique, compréhension des enjeux marketing et capacité à transformer la donnée en leviers concrets pour les équipes métier. BPCE Financement m'attire par la singularité de son modèle : une entreprise à taille humaine, intégrée au deuxième groupe bancaire français, qui conjugue proximité opérationnelle et enjeux d'envergure. Travailler au croisement du marketing, de la data et du pilotage de la performance client représente une opportunité d'apprendre, de contribuer utilement et de m'inscrire dans le secteur financier, un domaine qui me passionne.
+
+Ma formation m'a doté d'une double compétence alignée avec vos attentes : maîtrise technique en traitement et modélisation de données, complétée par une sensibilité aux problématiques de marketing digital. J'ai développé une pratique approfondie de Python, SQL et des méthodes de Machine Learning (Pandas, Scikit-learn), ainsi qu'une culture de la qualité de la donnée et de l'industrialisation des traitements. Ma licence de physique et mon semestre international à l'Université de Zagreb m'ont inculqué une rigueur méthodologique et une capacité d'adaptation essentielles pour analyser finement, interpréter avec prudence et restituer clairement.
+
+Mes expériences illustrent ma capacité à intervenir sur toute la chaîne de valeur data. Chez AULTA APP, j'ai industrialisé des pipelines de données, assuré le retraitement, le contrôle qualité et l'optimisation de modèles, en collaboration étroite avec l'équipe produit sur la définition des besoins. Chez WAYNIUM, j'ai développé une solution d'IA fondée sur le NLP, structuré les flux de données, évalué la fiabilité des sorties algorithmiques et documenté les choix techniques. Ces expériences m'ont habitué à construire des modèles utiles, les maintenir dans le temps et en assurer le suivi.
+
+Mes projets renforcent cette adéquation. Lauréat des Master Projects 2025 à l'ESME, j'ai optimisé des traitements de données, structuré des flux applicatifs et piloté la livraison d'une application en coordonnant une équipe. J'ai également conçu un assistant documentaire basé sur l'IA générative (RAG), avec pipeline d'ingestion, datamart PostgreSQL, contrôles qualité et interface d'aide à la décision — un projet m'ayant sensibilisé au cadrage métier, à la recette, au suivi des anomalies et au déploiement, compétences transposables à vos chantiers Data / Pilotage et aux cas d'usage en IA générative.
+
+Au-delà de la technique, je suis motivé par la dimension collaborative de votre pôle. J'apprécie la restitution claire auprès de profils non techniques et la progression par l'échange. Reconnu pour mon autonomie, ma précision et mon organisation, je concilie exigence analytique et sens du service pour produire des analyses fiables et actionnables. Mon anglais C1 me permet d'évoluer sereinement dans un contexte international.
+
+Rejoindre BPCE Financement, c'est contribuer à une mission concrète : mieux comprendre les comportements clients, améliorer la performance des opérations marketing et faire grandir des modèles prédictifs au service de la relation client. Je serais honoré d'échanger avec vous sur ma candidature.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+Robin Vassaux
+0646691030 — vassauxr@gmail.com
+Savigny-sur-Orge
