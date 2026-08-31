@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robin Vassaux - CV Ingénieur Data AXA CAT Analytics</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.5pt;
+      line-height: 1.42;
+      color: #1f2937;
+      background: #fff;
+    }
+    .page {
+      width: 210mm;
+      height: 297mm;
+      display: grid;
+      grid-template-columns: 80mm 1fr;
+      overflow: hidden;
+    }
+    .sidebar {
+      background: #0c1f4a;
+      color: #f8fafc;
+      height: 297mm;
+      padding: 8mm 6mm 8mm 7mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar-identity {
+      margin-bottom: 7px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(147, 197, 253, 0.35);
+    }
+    .sidebar-identity h1 {
+      font-size: 15.5pt;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.1;
+      margin-bottom: 3px;
+    }
+    .sidebar-identity .title {
+      font-size: 8.8pt;
+      font-weight: 600;
+      color: #93c5fd;
+      line-height: 1.25;
+    }
+    .sidebar h2 {
+      font-size: 8.2pt;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      margin: 7px 0 4px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid rgba(147, 197, 253, 0.35);
+    }
+    .contact p, .sidebar p, .sidebar li {
+      font-size: 8.7pt;
+      margin-bottom: 2px;
+      color: #e2e8f0;
+    }
+    .skill-group { margin-bottom: 5px; }
+    .skill-group strong {
+      display: block;
+      font-size: 8.5pt;
+      color: #ffffff;
+      margin-bottom: 2px;
+    }
+    .skill-group ul { list-style: none; padding-left: 0; }
+    .skill-group li {
+      font-size: 8.4pt;
+      color: #dbeafe;
+      margin-bottom: 1px;
+      padding-left: 8px;
+      position: relative;
+      line-height: 1.35;
+    }
+    .skill-group li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #93c5fd;
+    }
+    .formation-side { margin-bottom: 4px; }
+    .formation-side strong {
+      display: block;
+      font-size: 8.5pt;
+      color: #ffffff;
+    }
+    .formation-side span {
+      font-size: 8.3pt;
+      color: #dbeafe;
+      line-height: 1.3;
+    }
+    .interests { display: flex; flex-wrap: wrap; gap: 3px; }
+    .interests span {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+      padding: 2px 5px;
+      font-size: 8pt;
+      color: #e2e8f0;
+    }
+    .main {
+      height: 297mm;
+      padding: 8mm 8mm 8mm 7mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      margin-bottom: 6px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #0c1f4a;
+    }
+    .header .title {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0c1f4a;
+      margin-bottom: 4px;
+    }
+    .summary {
+      font-size: 9pt;
+      color: #374151;
+      text-align: justify;
+    }
+    .section { margin-top: 6px; }
+    .section h2 {
+      font-size: 9.8pt;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #0c1f4a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+    .entry { margin-bottom: 5px; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 1px;
+    }
+    .entry-header h3 {
+      font-size: 9.8pt;
+      color: #111827;
+      font-weight: 700;
+    }
+    .entry-header .date {
+      font-size: 8.5pt;
+      color: #6b7280;
+      white-space: nowrap;
+    }
+    .entry .company {
+      font-size: 9pt;
+      color: #1d4ed8;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .entry ul { margin-left: 13px; }
+    .entry li {
+      margin-bottom: 1px;
+      font-size: 9pt;
+      color: #374151;
+    }
+    .badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 7.8pt;
+      font-weight: 600;
+      padding: 2px 5px;
+      border-radius: 4px;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-identity">
+        <h1>Robin Vassaux</h1>
+        <div class="title">Ingénieur Data | CAT Analytics | Data Science &amp; Visualisation</div>
+      </div>
+
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>0646691030</p>
+        <p>vassauxr@gmail.com</p>
+        <p>Savigny-sur-Orge, France — Paris</p>
+        <p>linkedin.com/in/robin-vassaux-4a6273272</p>
+        <p>github.com/BillLeBottier</p>
+      </div>
+
+      <h2>Compétences techniques</h2>
+      <div class="skill-group">
+        <strong>Ingénierie des données</strong>
+        <ul>
+          <li>Python, Pandas, automatisation de workflows</li>
+          <li>Pipelines ETL / ELT, collecte et retraitement</li>
+          <li>Contrôle qualité, validation et documentation</li>
+          <li>Tests, maintenance et industrialisation de scripts</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Visualisation &amp; reporting</strong>
+        <ul>
+          <li>Tableaux de bord, reporting, visualisation de données</li>
+          <li>Intérêt pour la cartographie et les outils SIG</li>
+          <li>Restitution de résultats analytiques et modèles</li>
+          <li>Interfaces web (React, FastAPI) pour l'aide à la décision</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Data Science &amp; modélisation</strong>
+        <ul>
+          <li>Scikit-learn, modélisation, évaluation de modèles</li>
+          <li>SQL, PostgreSQL, Snowflake, NoSQL</li>
+          <li>PySpark, Spark, Kafka, grands volumes de données</li>
+          <li>Intégration de résultats de modèles dans des outils métier</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Environnement technique</strong>
+        <ul>
+          <li>Git, CI/CD, Docker, AWS, GCP</li>
+          <li>Collaboration avec équipes IT et métier</li>
+          <li>API REST, TypeScript, documentation technique</li>
+        </ul>
+      </div>
+
+      <h2>Langues</h2>
+      <p>Français : langue maternelle</p>
+      <p>Anglais : C1 — courant oral et écrit (environnement international)</p>
+      <p>Espagnol : B2</p>
+
+      <h2>Formation</h2>
+      <div class="formation-side">
+        <strong>ESME — École d'Ingénieurs</strong>
+        <span>Diplôme d'Ingénieur Big Data et Digital Marketing (Bac+5) — 2025</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université d'Évry Val d'Essonne</strong>
+        <span>Licence de Physique — 2022</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université de Zagreb</strong>
+        <span>Semestre international — 2024</span>
+      </div>
+
+      <h2>Distinctions</h2>
+      <p>Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager (ESME)</p>
+
+      <h2>Centres d'intérêt</h2>
+      <div class="interests">
+        <span>Climat et sciences de la Terre</span>
+        <span>Assurance et finance</span>
+        <span>Nouvelles technologies</span>
+        <span>Voyages</span>
+        <span>Sports</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <div class="title">Profil professionnel — Ingénieur Data CAT Analytics</div>
+        <p class="summary">
+          Ingénieur Big Data diplômé Bac+5, avec une formation scientifique en physique et une
+          expérience concrète en ingénierie des données, automatisation de pipelines et
+          visualisation de résultats. Je souhaite contribuer à l'automatisation des processus de
+          données de catastrophe et au développement d'outils de reporting et de visualisation au
+          sein du GRM d'AXA. Habitué à collecter, retraiter, contrôler et documenter des données,
+          à maintenir des scripts en production et à collaborer avec des équipes techniques et
+          métier. Fort intérêt pour le climat, les sciences de la Terre et l'apprentissage des
+          enjeux de l'assurance et de la modélisation des risques. Rigoureux, autonome, curieux
+          et à l'aise dans un environnement international exigeant.
+        </p>
+      </header>
+
+      <section class="section">
+        <h2>Expérience professionnelle</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Ingénieur Data &amp; Développeur Fullstack</h3>
+            <span class="date">Mai 2025 — Novembre 2025</span>
+          </div>
+          <div class="company">AULTA APP</div>
+          <ul>
+            <li>Conception et automatisation de pipelines de collecte, traitement et génération de rapports à partir de données hétérogènes.</li>
+            <li>Industrialisation de workflows batch : nettoyage, transformation, contrôle qualité et suivi des anomalies.</li>
+            <li>Optimisation des performances des traitements et maintenance des scripts en production.</li>
+            <li>Documentation technique, tests et collaboration avec l'équipe produit sur l'intégration de nouvelles fonctionnalités.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Développeur Backend — Data &amp; IA</h3>
+            <span class="date">Juin 2024 — Septembre 2024</span>
+          </div>
+          <div class="company">WAYNIUM</div>
+          <ul>
+            <li>Développement d'outils de traitement automatisé de données : extraction, structuration et validation.</li>
+            <li>Évaluation et fiabilisation des sorties de modèles ; itération continue pour améliorer la qualité des résultats.</li>
+            <li>Intégration de la solution dans l'écosystème existant et rédaction de documentation pour le transfert de compétences.</li>
+            <li>Interaction régulière avec les parties prenantes métier et techniques sur les besoins fonctionnels.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Projets Data, automatisation &amp; visualisation</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Application de sous-titrage et génération de shorts YouTube</h3>
+            <span class="date">2025 — 2026</span>
+          </div>
+          <div class="company">ESME — Projet Master Projects</div>
+          <ul>
+            <li>Automatisation de traitements de données sur bases NoSQL ; structuration de flux et amélioration des performances.</li>
+            <li>Conception d'API REST, refactoring, tests et bonnes pratiques de développement (Git).</li>
+            <li>Coordination d'équipe, gestion de projet et livraison lauréate des Master Projects 2025.</li>
+            <li>Participation aux choix d'architecture et à la documentation des choix techniques.</li>
+          </ul>
+          <span class="badge">Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager</span>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Plateforme d'aide à la décision — assistant documentaire IA (RAG)</h3>
+            <span class="date">2026</span>
+          </div>
+          <div class="company">Projet personnel</div>
+          <ul>
+            <li>Développement d'une plateforme de collecte, ingestion et exploitation de données (OCR, segmentation, indexation).</li>
+            <li>Création d'une interface de visualisation et d'exploration des résultats (React, FastAPI, PostgreSQL).</li>
+            <li>Mise en place de contrôles qualité, déploiement Docker et maintenance de scripts d'automatisation.</li>
+            <li>Cadrage des besoins, recette fonctionnelle et collaboration entre composants techniques et usage métier.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Travaux d'analyse et de modélisation de données</h3>
+            <span class="date">2023 — 2025</span>
+          </div>
+          <div class="company">Projets académiques ESME / Licence de Physique</div>
+          <ul>
+            <li>Manipulation et analyse de jeux de données ; modélisation, visualisation et interprétation de résultats.</li>
+            <li>Approche rigoureuse issue de la formation en physique : méthode, précision et attention aux détails.</li>
+            <li>Utilisation de Python, SQL et outils statistiques pour le traitement et la restitution de données.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
