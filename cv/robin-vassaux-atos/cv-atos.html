@@ -18,8 +18,8 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 9pt;
-      line-height: 1.35;
+      font-size: 9.5pt;
+      line-height: 1.42;
       color: #1f2937;
       background: #fff;
     }
@@ -28,83 +28,68 @@
       width: 210mm;
       height: 297mm;
       display: grid;
-      grid-template-columns: 78mm 1fr;
+      grid-template-columns: 80mm 1fr;
       overflow: hidden;
     }
 
     .sidebar {
       background: #0f2b46;
       color: #f8fafc;
-      min-height: 297mm;
       height: 297mm;
-      padding: 10mm 7mm 10mm 8mm;
+      padding: 8mm 6mm 8mm 7mm;
       display: flex;
       flex-direction: column;
+      gap: 0;
     }
 
     .sidebar-identity {
-      margin-bottom: 10px;
-      padding-bottom: 8px;
+      margin-bottom: 7px;
+      padding-bottom: 6px;
       border-bottom: 1px solid rgba(147, 197, 253, 0.35);
     }
 
     .sidebar-identity h1 {
-      font-size: 15pt;
+      font-size: 15.5pt;
       font-weight: 700;
       color: #ffffff;
-      line-height: 1.15;
-      margin-bottom: 4px;
+      line-height: 1.1;
+      margin-bottom: 3px;
     }
 
     .sidebar-identity .title {
-      font-size: 8.8pt;
+      font-size: 9pt;
       font-weight: 600;
       color: #93c5fd;
-      line-height: 1.3;
+      line-height: 1.25;
     }
 
     .sidebar h2 {
-      font-size: 8pt;
+      font-size: 8.2pt;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: #93c5fd;
-      margin: 9px 0 5px;
-      padding-bottom: 3px;
+      margin: 7px 0 4px;
+      padding-bottom: 2px;
       border-bottom: 1px solid rgba(147, 197, 253, 0.35);
-    }
-
-    .sidebar h2:first-of-type {
-      margin-top: 0;
     }
 
     .contact p,
     .sidebar p,
     .sidebar li {
-      font-size: 8.5pt;
-      margin-bottom: 3px;
+      font-size: 8.7pt;
+      margin-bottom: 2px;
       color: #e2e8f0;
     }
 
-    .contact a {
-      color: #bfdbfe;
-      text-decoration: none;
-    }
-
-    .sidebar-content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
     .skill-group {
-      margin-bottom: 7px;
+      margin-bottom: 5px;
     }
 
     .skill-group strong {
       display: block;
-      font-size: 8.3pt;
+      font-size: 8.5pt;
       color: #ffffff;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
 
     .skill-group ul {
@@ -113,11 +98,12 @@
     }
 
     .skill-group li {
-      font-size: 8.2pt;
+      font-size: 8.4pt;
       color: #dbeafe;
-      margin-bottom: 2px;
+      margin-bottom: 1px;
       padding-left: 8px;
       position: relative;
+      line-height: 1.35;
     }
 
     .skill-group li::before {
@@ -127,30 +113,26 @@
       color: #93c5fd;
     }
 
-    .sidebar-spacer {
-      flex: 1;
-      min-height: 6px;
-    }
-
     .formation-side {
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
 
     .formation-side strong {
       display: block;
-      font-size: 8.3pt;
+      font-size: 8.5pt;
       color: #ffffff;
     }
 
     .formation-side span {
-      font-size: 8pt;
+      font-size: 8.3pt;
       color: #dbeafe;
+      line-height: 1.3;
     }
 
     .interests {
       display: flex;
       flex-wrap: wrap;
-      gap: 4px;
+      gap: 3px;
     }
 
     .interests span {
@@ -158,16 +140,19 @@
       border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 4px;
       padding: 2px 5px;
-      font-size: 7.8pt;
+      font-size: 8pt;
       color: #e2e8f0;
     }
 
     .main {
-      padding: 10mm 9mm 9mm 8mm;
+      height: 297mm;
+      padding: 8mm 8mm 8mm 7mm;
+      display: flex;
+      flex-direction: column;
     }
 
     .header {
-      margin-bottom: 7px;
+      margin-bottom: 6px;
       padding-bottom: 5px;
       border-bottom: 2px solid #0f2b46;
     }
@@ -180,27 +165,27 @@
     }
 
     .summary {
-      font-size: 8.7pt;
+      font-size: 9pt;
       color: #374151;
       text-align: justify;
     }
 
     .section {
-      margin-top: 7px;
+      margin-top: 6px;
     }
 
     .section h2 {
-      font-size: 9.5pt;
+      font-size: 9.8pt;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #0f2b46;
       border-bottom: 1px solid #cbd5e1;
       padding-bottom: 2px;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
 
     .entry {
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
 
     .entry-header {
@@ -212,22 +197,22 @@
     }
 
     .entry-header h3 {
-      font-size: 9.5pt;
+      font-size: 9.8pt;
       color: #111827;
       font-weight: 700;
     }
 
     .entry-header .date {
-      font-size: 8.3pt;
+      font-size: 8.5pt;
       color: #6b7280;
       white-space: nowrap;
     }
 
     .entry .company {
-      font-size: 8.8pt;
+      font-size: 9pt;
       color: #2563eb;
       font-weight: 600;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
 
     .entry ul {
@@ -236,7 +221,7 @@
 
     .entry li {
       margin-bottom: 1px;
-      font-size: 8.6pt;
+      font-size: 9pt;
       color: #374151;
     }
 
@@ -244,11 +229,24 @@
       display: inline-block;
       background: #eff6ff;
       color: #1d4ed8;
-      font-size: 7.6pt;
+      font-size: 7.8pt;
       font-weight: 600;
       padding: 2px 5px;
       border-radius: 4px;
-      margin-top: 3px;
+      margin-top: 2px;
+    }
+
+    .soft-skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px 10px;
+    }
+
+    .soft-skills li {
+      font-size: 8.8pt;
+      color: #374151;
+      margin-left: 13px;
+      margin-bottom: 1px;
     }
   </style>
 </head>
@@ -260,103 +258,107 @@
         <div class="title">Data Scientist | Consultant Data &amp; IA | Ingénieur Big Data</div>
       </div>
 
-      <div class="sidebar-content">
-        <h2>Contact</h2>
-        <div class="contact">
-          <p>0646691030</p>
-          <p>vassauxr@gmail.com</p>
-          <p>Savigny-sur-Orge, France</p>
-          <p>linkedin.com/in/robin-vassaux</p>
-          <p>github.com/robin-vassaux</p>
-        </div>
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>0646691030</p>
+        <p>vassauxr@gmail.com</p>
+        <p>Savigny-sur-Orge, France</p>
+        <p>linkedin.com/in/robin-vassaux</p>
+        <p>github.com/robin-vassaux</p>
+      </div>
 
-        <h2>Compétences techniques</h2>
-        <div class="skill-group">
-          <strong>Data Science &amp; Machine Learning</strong>
-          <ul>
-            <li>Python, Pandas, Scikit-learn, XGBoost</li>
-            <li>Machine Learning, Deep Learning, NLP</li>
-            <li>Modélisation prédictive, Forecasting</li>
-            <li>Évaluation et optimisation de modèles</li>
-            <li>Analyse de données, Data Quality</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <strong>Intelligence artificielle</strong>
-          <ul>
-            <li>IA générative, LLM, OpenAI API</li>
-            <li>Prompt engineering, Embeddings, RAG</li>
-            <li>Whisper, traitement automatique du langage</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <strong>Data Engineering</strong>
-          <ul>
-            <li>PySpark, Spark, Kafka, Snowflake</li>
-            <li>Pipelines ETL / ELT, ingestion de données</li>
-            <li>Elasticsearch, Neo4j, PostgreSQL, NoSQL</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <strong>SQL &amp; Bases de données</strong>
-          <ul>
-            <li>SQL, requêtage et modélisation de données</li>
-            <li>PostgreSQL, manipulation de grands volumes</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <strong>Cloud, DevOps &amp; Développement</strong>
-          <ul>
-            <li>AWS, GCP, Docker, déploiement cloud</li>
-            <li>Git, tests unitaires, CI/CD</li>
-            <li>API REST, FastAPI, TypeScript, React</li>
-          </ul>
-        </div>
+      <h2>Compétences techniques</h2>
+      <div class="skill-group">
+        <strong>Data Science &amp; Machine Learning</strong>
+        <ul>
+          <li>Python, Pandas, Scikit-learn, XGBoost</li>
+          <li>Machine Learning, Deep Learning, NLP</li>
+          <li>Modélisation prédictive, Forecasting</li>
+          <li>Évaluation, test et optimisation de modèles</li>
+          <li>Analyse de données, Data Quality, visualisation</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Intelligence artificielle</strong>
+        <ul>
+          <li>IA générative, LLM, OpenAI API</li>
+          <li>Prompt engineering, Embeddings, RAG</li>
+          <li>Whisper, traitement automatique du langage</li>
+          <li>Analyse de texte, extraction d'information</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Data Engineering</strong>
+        <ul>
+          <li>PySpark, Spark, Kafka, Snowflake</li>
+          <li>Pipelines ETL / ELT, ingestion de données</li>
+          <li>Elasticsearch, Neo4j, PostgreSQL, NoSQL</li>
+          <li>Nettoyage, transformation, validation de données</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>SQL &amp; Bases de données</strong>
+        <ul>
+          <li>SQL, requêtage et modélisation de données</li>
+          <li>PostgreSQL, manipulation de grands volumes</li>
+          <li>Indexation vectorielle, recherche hybride</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Cloud, DevOps &amp; Développement</strong>
+        <ul>
+          <li>AWS, GCP, Docker, déploiement cloud</li>
+          <li>Git, tests unitaires, CI/CD</li>
+          <li>API REST, FastAPI, TypeScript, React, NestJS</li>
+          <li>Environnements cloud et on-premise</li>
+        </ul>
+      </div>
 
-        <h2>Langues</h2>
-        <p>Anglais : C1 - niveau professionnel</p>
-        <p>Espagnol : B2</p>
+      <h2>Langues</h2>
+      <p>Anglais : C1 — niveau professionnel (missions internationales)</p>
+      <p>Espagnol : B2</p>
 
-        <div class="sidebar-spacer"></div>
+      <h2>Formation</h2>
+      <div class="formation-side">
+        <strong>ESME — École d'Ingénieurs</strong>
+        <span>Diplôme d'Ingénieur Big Data et Digital Marketing (Bac+5) — 2025</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université d'Évry Val d'Essonne</strong>
+        <span>Licence de Physique — 2024</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université de Zagreb</strong>
+        <span>Semestre international — 2022</span>
+      </div>
 
-        <h2>Formation</h2>
-        <div class="formation-side">
-          <strong>ESME — École d'Ingénieurs</strong>
-          <span>Diplôme d'Ingénieur Big Data et Digital Marketing (Bac+5) — 2025</span>
-        </div>
-        <div class="formation-side">
-          <strong>Université d'Évry Val d'Essonne</strong>
-          <span>Licence de Physique — 2024</span>
-        </div>
-        <div class="formation-side">
-          <strong>Université de Zagreb</strong>
-          <span>Semestre international — 2022</span>
-        </div>
+      <h2>Distinctions</h2>
+      <p>Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager (ESME)</p>
 
-        <h2>Centres d'intérêt</h2>
-        <div class="interests">
-          <span>Voyages</span>
-          <span>Nouvelles technologies</span>
-          <span>Gaming</span>
-          <span>Sports</span>
-          <span>Finances et Trading</span>
-        </div>
+      <h2>Centres d'intérêt</h2>
+      <div class="interests">
+        <span>Voyages</span>
+        <span>Nouvelles technologies</span>
+        <span>Gaming</span>
+        <span>Sports</span>
+        <span>Finances et Trading</span>
+        <span>Développement logiciel</span>
       </div>
     </aside>
 
     <main class="main">
       <header class="header">
-        <div class="title">Profil professionnel - Data Scientist</div>
+        <div class="title">Profil professionnel — Data Scientist</div>
         <p class="summary">
           Ingénieur Big Data diplômé Bac+5, orienté Data Science et conseil en valorisation de
           données. J'accompagne la transformation de besoins métiers en solutions algorithmiques
-          concrètes : cadrage de cas d'usage, faisabilité technique, développement de modèles de
-          Machine Learning et NLP (Python, Pandas, Scikit-learn, XGBoost), puis intégration et
-          déploiement en production. Expérience sur des problématiques de prédiction, structuration
-          de données SQL, analyse de texte et automatisation de traitements avec PySpark. À l'aise en
-          environnements cloud (AWS, GCP) et on-premise, avec bonnes pratiques de développement :
-          Git, tests unitaires et CI/CD. Adaptable, autonome et à l'aise en posture de consultant
-          auprès des équipes métiers et IT.
+          concrètes : cadrage de cas d'usage, évaluation de faisabilité technique, développement de
+          modèles de Machine Learning et NLP (Python, Pandas, Scikit-learn, XGBoost), puis intégration
+          et déploiement en production. Expérience sur des problématiques de prédiction, structuration
+          de données SQL, analyse de texte, détection d'anomalies et automatisation de traitements
+          avec PySpark. À l'aise en environnements cloud (AWS, GCP) et on-premise, avec bonnes
+          pratiques de développement : Git, tests unitaires et CI/CD. Adaptable, autonome et à l'aise
+          en posture de consultant auprès des équipes métiers et IT.
         </p>
       </header>
 
@@ -371,8 +373,9 @@
           <div class="company">AULTA APP</div>
           <ul>
             <li>Conception d'un pipeline de traitement de données intégrant des modèles d'IA (OpenAI, Whisper) pour le sous-titrage automatique, le chapitrage et la génération de contenus vidéo.</li>
-            <li>Nettoyage, transformation et structuration de données multimédia ; automatisation des flux ETL.</li>
+            <li>Nettoyage, transformation et structuration de données multimédia ; automatisation des flux ETL et contrôle qualité des données traitées.</li>
             <li>Évaluation, test et optimisation des performances des modèles et des traitements batch.</li>
+            <li>Participation aux choix d'architecture et collaboration avec l'équipe produit sur la conception fonctionnelle.</li>
           </ul>
         </article>
 
@@ -386,6 +389,7 @@
             <li>Développement d'une solution Data / IA exploitant un Large Language Model (OpenAI) pour automatiser la création de missions de transport à partir de commandes vocales.</li>
             <li>Conception du pipeline de traitement NLP : extraction, structuration et validation des données.</li>
             <li>Évaluation des réponses générées et itération sur les prompts pour fiabiliser les sorties algorithmiques.</li>
+            <li>Intégration de la solution dans l'écosystème applicatif existant et documentation technique pour le transfert de compétences.</li>
           </ul>
         </article>
 
@@ -399,6 +403,7 @@
             <li>Développement backend et frontend (TypeScript) ; optimisation de traitements de données sur bases NoSQL.</li>
             <li>Conception d'API REST, structuration des flux applicatifs et amélioration des performances.</li>
             <li>Participation aux choix d'architecture, refactoring et bonnes pratiques de développement (Git).</li>
+            <li>Coordination d'équipe et livraison du projet lauréat des Master Projects 2025.</li>
           </ul>
           <span class="badge">Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager</span>
         </article>
@@ -416,9 +421,22 @@
           <ul>
             <li>Cadrage fonctionnel et mise en place d'un pipeline d'ingestion (OCR, segmentation, indexation vectorielle) et de recherche hybride.</li>
             <li>Développement de réponses sourcées via FastAPI, React et PostgreSQL ; déploiement Docker en environnement de production.</li>
+            <li>Mise en place de contrôles qualité sur les données ingérées et les réponses générées par le modèle.</li>
             <li>Accompagnement du cycle complet : prototypage, intégration technique et transfert vers un usage métier.</li>
           </ul>
         </article>
+      </section>
+
+      <section class="section">
+        <h2>Atouts et soft skills</h2>
+        <ul class="soft-skills">
+          <li>Adaptabilité : montée en compétence rapide sur de nouveaux domaines métiers</li>
+          <li>Posture de consultant : écoute client, vulgarisation et accompagnement</li>
+          <li>Esprit d'équipe et partage de connaissances techniques</li>
+          <li>Rigueur, autonomie et orientation résultats</li>
+          <li>Capacité à transformer des besoins métiers en solutions data concrètes</li>
+          <li>Anglais professionnel pour contexte international</li>
+        </ul>
       </section>
     </main>
   </div>
