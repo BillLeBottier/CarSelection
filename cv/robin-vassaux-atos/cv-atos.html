@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robin Vassaux — CV Data Scientist</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 9pt;
+      line-height: 1.35;
+      color: #1f2937;
+      background: #fff;
+    }
+
+    .page {
+      width: 210mm;
+      height: 297mm;
+      display: grid;
+      grid-template-columns: 68mm 1fr;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      background: #0f2b46;
+      color: #f8fafc;
+      padding: 14mm 7mm 12mm 9mm;
+    }
+
+    .sidebar h2 {
+      font-size: 8pt;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      margin: 10px 0 5px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid rgba(147, 197, 253, 0.35);
+    }
+
+    .sidebar h2:first-child {
+      margin-top: 0;
+    }
+
+    .contact p,
+    .sidebar li,
+    .sidebar p {
+      font-size: 8.8pt;
+      margin-bottom: 4px;
+      color: #e2e8f0;
+    }
+
+    .contact a {
+      color: #bfdbfe;
+      text-decoration: none;
+    }
+
+    .skill-group {
+      margin-bottom: 8px;
+    }
+
+    .skill-group strong {
+      display: block;
+      font-size: 8.5pt;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+
+    .skill-group span {
+      font-size: 8.5pt;
+      color: #dbeafe;
+    }
+
+    .main {
+      padding: 12mm 10mm 10mm 8mm;
+    }
+
+    .header {
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #0f2b46;
+    }
+
+    .header h1 {
+      font-size: 21pt;
+      font-weight: 700;
+      color: #0f2b46;
+      letter-spacing: 0.02em;
+      margin-bottom: 1px;
+    }
+
+    .header .title {
+      font-size: 11pt;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 5px;
+    }
+
+    .summary {
+      font-size: 8.8pt;
+      color: #374151;
+      text-align: justify;
+    }
+
+    .section {
+      margin-top: 8px;
+    }
+
+    .section h2 {
+      font-size: 10pt;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #0f2b46;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+    }
+
+    .entry {
+      margin-bottom: 7px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 2px;
+    }
+
+    .entry-header h3 {
+      font-size: 10pt;
+      color: #111827;
+      font-weight: 700;
+    }
+
+    .entry-header .date {
+      font-size: 8.5pt;
+      color: #6b7280;
+      white-space: nowrap;
+    }
+
+    .entry .company {
+      font-size: 9pt;
+      color: #2563eb;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .entry ul {
+      margin-left: 14px;
+    }
+
+    .entry li {
+      margin-bottom: 1px;
+      font-size: 8.8pt;
+      color: #374151;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 7.8pt;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-top: 4px;
+    }
+
+    .formation-item {
+      margin-bottom: 5px;
+    }
+
+    .formation-item strong {
+      display: block;
+      font-size: 9.5pt;
+      color: #111827;
+    }
+
+    .formation-item span {
+      font-size: 8.8pt;
+      color: #6b7280;
+    }
+
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .interests span {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 8.2pt;
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>0646691030</p>
+        <p>vassauxr@gmail.com</p>
+        <p>Savigny-sur-Orge</p>
+        <p><a href="https://linkedin.com">LinkedIn</a></p>
+        <p><a href="https://github.com">GitHub</a></p>
+      </div>
+
+      <h2>Compétences clés</h2>
+      <div class="skill-group">
+        <strong>Data Science &amp; ML</strong>
+        <span>Python · Pandas · Scikit-learn · NLP · Machine Learning · Deep Learning · Forecasting · Embeddings</span>
+      </div>
+      <div class="skill-group">
+        <strong>IA générative</strong>
+        <span>LLM · OpenAI API · Prompt engineering · RAG · Whisper</span>
+      </div>
+      <div class="skill-group">
+        <strong>Data Engineering</strong>
+        <span>ETL/ELT · PySpark · Kafka · Snowflake · Elasticsearch · Neo4j</span>
+      </div>
+      <div class="skill-group">
+        <strong>Données &amp; BDD</strong>
+        <span>SQL · PostgreSQL · NoSQL · Modélisation · Data Quality</span>
+      </div>
+      <div class="skill-group">
+        <strong>Cloud &amp; DevOps</strong>
+        <span>AWS · GCP · Docker · Git · CI/CD · REST API</span>
+      </div>
+
+      <h2>Langues</h2>
+      <p>Anglais — C1 (professionnel)</p>
+      <p>Espagnol — B2</p>
+
+      <h2>Centres d'intérêt</h2>
+      <div class="interests">
+        <span>Voyages</span>
+        <span>Nouvelles technologies</span>
+        <span>Gaming</span>
+        <span>Sports</span>
+        <span>Finances &amp; Trading</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <h1>Robin Vassaux</h1>
+        <div class="title">Data Scientist &amp; Ingénieur IA / Big Data</div>
+        <p class="summary">
+          Ingénieur Big Data diplômé (Bac+5), spécialisé en valorisation de données, modélisation
+          prédictive et solutions d'intelligence artificielle. J'accompagne la transformation de
+          besoins métiers en cas d'usage data concrets : conception de pipelines, développement de
+          modèles ML/NLP, évaluation des performances et intégration en production. Habitué aux
+          environnements cloud (AWS, GCP) et aux bonnes pratiques de développement (Git, tests,
+          CI/CD). Curieux, adaptable et orienté résultats, j'apprécie le travail en équipe et le
+          partage de connaissances techniques.
+        </p>
+      </header>
+
+      <section class="section">
+        <h2>Expérience professionnelle</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Développeur Fullstack &amp; Data Engineer</h3>
+            <span class="date">Mai 2025 — Nov. 2025</span>
+          </div>
+          <div class="company">AULTA APP</div>
+          <ul>
+            <li>Conception d'un pipeline de traitement de données intégrant des modèles d'IA (OpenAI, Whisper) pour le sous-titrage automatique, le chapitrage et la génération de contenus vidéo.</li>
+            <li>Structuration, nettoyage et transformation de données multimédia ; automatisation des flux de traitement.</li>
+            <li>Évaluation et optimisation des performances des modèles et des traitements batch.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Développeur Backend — IA &amp; NLP</h3>
+            <span class="date">Juin 2024 — Sept. 2024</span>
+          </div>
+          <div class="company">WAYNIUM</div>
+          <ul>
+            <li>Développement d'une solution exploitant un Large Language Model (OpenAI) pour automatiser la création de missions de transport à partir de commandes vocales.</li>
+            <li>Conception du pipeline de traitement : extraction, structuration et validation des données issues du NLP.</li>
+            <li>Évaluation des réponses générées et itération sur les prompts pour améliorer la qualité et la fiabilité des sorties.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Développeur Fullstack — Projet ESME</h3>
+            <span class="date">2025 — 2026</span>
+          </div>
+          <div class="company">ESME — Application de sous-titrage &amp; génération de shorts YouTube</div>
+          <ul>
+            <li>Développement backend et frontend (TypeScript) ; optimisation de traitements de données sur bases NoSQL.</li>
+            <li>Conception d'API REST, structuration des flux applicatifs et amélioration des performances.</li>
+            <li>Participation aux choix d'architecture et au refactoring du code existant.</li>
+          </ul>
+          <span class="badge">Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager</span>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Projets data &amp; IA</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Assistant documentaire IA — RAG pour syndics de copropriété</h3>
+            <span class="date">2026</span>
+          </div>
+          <div class="company">Projet personnel</div>
+          <ul>
+            <li>Mise en place d'un pipeline d'ingestion (OCR, segmentation, indexation vectorielle) et de recherche hybride pour répondre à des besoins métiers documentaires.</li>
+            <li>Développement de réponses sourcées via FastAPI, React et PostgreSQL ; déploiement containerisé (Docker).</li>
+            <li>Accompagnement du cycle complet : cadrage fonctionnel, prototypage, intégration et mise en production.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Formation</h2>
+        <div class="formation-item">
+          <strong>ESME — École d'Ingénieurs</strong>
+          <span>Diplôme d'Ingénieur Big Data &amp; Digital Marketing — 2025</span>
+        </div>
+        <div class="formation-item">
+          <strong>Université d'Évry Val d'Essonne</strong>
+          <span>Licence de Physique — 2024</span>
+        </div>
+        <div class="formation-item">
+          <strong>Université de Zagreb</strong>
+          <span>Semestre international — 2022</span>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
