@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robin Vassaux - CV Data Scientist Marketing BPCE</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.5pt;
+      line-height: 1.42;
+      color: #1f2937;
+      background: #fff;
+    }
+    .page {
+      width: 210mm;
+      height: 297mm;
+      display: grid;
+      grid-template-columns: 80mm 1fr;
+      overflow: hidden;
+    }
+    .sidebar {
+      background: #123524;
+      color: #f8fafc;
+      height: 297mm;
+      padding: 8mm 6mm 8mm 7mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar-identity {
+      margin-bottom: 7px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(167, 243, 208, 0.35);
+    }
+    .sidebar-identity h1 {
+      font-size: 15.5pt;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.1;
+      margin-bottom: 3px;
+    }
+    .sidebar-identity .title {
+      font-size: 8.8pt;
+      font-weight: 600;
+      color: #6ee7b7;
+      line-height: 1.25;
+    }
+    .sidebar h2 {
+      font-size: 8.2pt;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #6ee7b7;
+      margin: 7px 0 4px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid rgba(167, 243, 208, 0.35);
+    }
+    .contact p, .sidebar p, .sidebar li {
+      font-size: 8.7pt;
+      margin-bottom: 2px;
+      color: #e2e8f0;
+    }
+    .skill-group { margin-bottom: 5px; }
+    .skill-group strong {
+      display: block;
+      font-size: 8.5pt;
+      color: #ffffff;
+      margin-bottom: 2px;
+    }
+    .skill-group ul { list-style: none; padding-left: 0; }
+    .skill-group li {
+      font-size: 8.4pt;
+      color: #d1fae5;
+      margin-bottom: 1px;
+      padding-left: 8px;
+      position: relative;
+      line-height: 1.35;
+    }
+    .skill-group li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #6ee7b7;
+    }
+    .formation-side { margin-bottom: 4px; }
+    .formation-side strong {
+      display: block;
+      font-size: 8.5pt;
+      color: #ffffff;
+    }
+    .formation-side span {
+      font-size: 8.3pt;
+      color: #d1fae5;
+      line-height: 1.3;
+    }
+    .interests { display: flex; flex-wrap: wrap; gap: 3px; }
+    .interests span {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+      padding: 2px 5px;
+      font-size: 8pt;
+      color: #e2e8f0;
+    }
+    .main {
+      height: 297mm;
+      padding: 8mm 8mm 8mm 7mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      margin-bottom: 6px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #123524;
+    }
+    .header .title {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #123524;
+      margin-bottom: 4px;
+    }
+    .summary {
+      font-size: 9pt;
+      color: #374151;
+      text-align: justify;
+    }
+    .section { margin-top: 6px; }
+    .section h2 {
+      font-size: 9.8pt;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #123524;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+    .entry { margin-bottom: 5px; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 1px;
+    }
+    .entry-header h3 {
+      font-size: 9.8pt;
+      color: #111827;
+      font-weight: 700;
+    }
+    .entry-header .date {
+      font-size: 8.5pt;
+      color: #6b7280;
+      white-space: nowrap;
+    }
+    .entry .company {
+      font-size: 9pt;
+      color: #047857;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .entry ul { margin-left: 13px; }
+    .entry li {
+      margin-bottom: 1px;
+      font-size: 9pt;
+      color: #374151;
+    }
+    .badge {
+      display: inline-block;
+      background: #ecfdf5;
+      color: #047857;
+      font-size: 7.8pt;
+      font-weight: 600;
+      padding: 2px 5px;
+      border-radius: 4px;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-identity">
+        <h1>Robin Vassaux</h1>
+        <div class="title">Data Scientist Marketing &amp; CRM | Ingénieur Big Data &amp; Digital Marketing</div>
+      </div>
+
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>0646691030</p>
+        <p>vassauxr@gmail.com</p>
+        <p>Savigny-sur-Orge, France</p>
+        <p>linkedin.com/in/robin-vassaux-4a6273272</p>
+        <p>github.com/BillLeBottier</p>
+      </div>
+
+      <h2>Compétences techniques</h2>
+      <div class="skill-group">
+        <strong>Data Science &amp; Statistiques</strong>
+        <ul>
+          <li>Python, Pandas, Scikit-learn, XGBoost</li>
+          <li>Analyses statistiques, modélisation prédictive</li>
+          <li>Forecasting, scoring, évaluation de modèles</li>
+          <li>Interprétation de résultats et restitution métier</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Marketing Data &amp; CRM</strong>
+        <ul>
+          <li>Analyse de profils et parcours clients</li>
+          <li>Segmentation, appétence, comportements d'usage</li>
+          <li>Marketing opérationnel, pilotage de performance</li>
+          <li>Digital Marketing (formation ESME)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>SQL, Datamarts &amp; Données</strong>
+        <ul>
+          <li>SQL, PostgreSQL, requêtage avancé</li>
+          <li>Collecte, retraitement, contrôle qualité des données</li>
+          <li>Pipelines ETL / ELT, structuration de datamarts</li>
+          <li>Snowflake, NoSQL, modélisation de données</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>IA générative &amp; Aide à la décision</strong>
+        <ul>
+          <li>Cas d'usage IA générative, LLM, OpenAI API</li>
+          <li>RAG, NLP, extraction et analyse de texte</li>
+          <li>Tableaux de bord, reporting, visualisation</li>
+          <li>Outils : Python, SQL, Excel, Git</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <strong>Big Data &amp; Industrialisation</strong>
+        <ul>
+          <li>PySpark, Spark, Kafka, maintenance de pipelines</li>
+          <li>Industrialisation et suivi de modèles en production</li>
+          <li>Recette métier, suivi d'anomalies, documentation</li>
+        </ul>
+      </div>
+
+      <h2>Langues</h2>
+      <p>Anglais : C1 — niveau professionnel</p>
+      <p>Espagnol : B2</p>
+
+      <h2>Formation</h2>
+      <div class="formation-side">
+        <strong>ESME — École d'Ingénieurs</strong>
+        <span>Diplôme d'Ingénieur Big Data et Digital Marketing (Bac+5) — 2025</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université d'Évry Val d'Essonne</strong>
+        <span>Licence de Physique — 2022</span>
+      </div>
+      <div class="formation-side">
+        <strong>Université de Zagreb</strong>
+        <span>Semestre international — 2024</span>
+      </div>
+
+      <h2>Distinctions</h2>
+      <p>Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager (ESME)</p>
+
+      <h2>Centres d'intérêt</h2>
+      <div class="interests">
+        <span>Finances et Trading</span>
+        <span>Nouvelles technologies</span>
+        <span>Voyages</span>
+        <span>Sports</span>
+        <span>Gaming</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <div class="title">Profil professionnel — Data Scientist Marketing &amp; CRM</div>
+        <p class="summary">
+          Ingénieur Big Data et Digital Marketing diplômé Bac+5, spécialisé en analyse de données,
+          modélisation prédictive et valorisation marketing. J'étudie et interprète des profils,
+          parcours et comportements à partir de données structurées (SQL, Python) pour contribuer à
+          la performance des opérations marketing. Expérience en construction, test et maintenance de
+          modèles (Scikit-learn, Pandas), industrialisation de pipelines de données, contrôle qualité
+          et mise en place de datamarts. Sensibilisé aux enjeux CRM, au pilotage marketing et aux
+          nouveaux cas d'usage IA générative. Rigoureux, organisé et à l'aise pour collaborer avec
+          les équipes marketing et métier sur la définition des besoins, la recette et le suivi des
+          anomalies.
+        </p>
+      </header>
+
+      <section class="section">
+        <h2>Expérience professionnelle</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Data Engineer &amp; Développeur Fullstack</h3>
+            <span class="date">Mai 2025 — Novembre 2025</span>
+          </div>
+          <div class="company">AULTA APP</div>
+          <ul>
+            <li>Industrialisation d'un pipeline de données intégrant des modèles prédictifs et d'IA (OpenAI, Whisper) ; maintenance et optimisation des traitements batch.</li>
+            <li>Collecte, retraitement, nettoyage et contrôle qualité des données ; structuration de flux applicatifs exploitables par les équipes produit.</li>
+            <li>Évaluation des performances des modèles, suivi des anomalies et amélioration continue des résultats.</li>
+            <li>Collaboration avec l'équipe métier sur la définition des besoins et la conception fonctionnelle.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Développeur Backend — Data &amp; IA</h3>
+            <span class="date">Juin 2024 — Septembre 2024</span>
+          </div>
+          <div class="company">WAYNIUM</div>
+          <ul>
+            <li>Développement d'un modèle NLP (LLM OpenAI) pour automatiser le traitement de données vocales et structurer des informations métier.</li>
+            <li>Extraction, validation et analyse de données ; évaluation et fiabilisation des sorties algorithmiques.</li>
+            <li>Intégration de la solution dans l'écosystème existant et documentation pour le transfert de compétences.</li>
+            <li>Participation au cadrage technique et à l'industrialisation du cas d'usage.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Projets Data, Marketing &amp; IA</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Application de sous-titrage et génération de shorts YouTube</h3>
+            <span class="date">2025 — 2026</span>
+          </div>
+          <div class="company">ESME — Projet Master Projects</div>
+          <ul>
+            <li>Analyse et optimisation de traitements de données sur bases NoSQL ; structuration de flux pour améliorer la performance applicative.</li>
+            <li>Conception d'API REST, modélisation des données et amélioration des indicateurs de performance.</li>
+            <li>Coordination d'équipe, pilotage de projet et livraison lauréate des Master Projects 2025.</li>
+            <li>Participation aux choix d'architecture, recette fonctionnelle et refactoring du code.</li>
+          </ul>
+          <span class="badge">Projet gagnant — Master Projects 2025, catégorie Ingénieur Manager</span>
+        </article>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Assistant documentaire IA — cas d'usage IA générative (RAG)</h3>
+            <span class="date">2026</span>
+          </div>
+          <div class="company">Projet personnel</div>
+          <ul>
+            <li>Conception et mise en œuvre d'un cas d'usage IA générative : pipeline d'ingestion (OCR, segmentation, indexation vectorielle) et recherche hybride.</li>
+            <li>Création d'un datamart documentaire (PostgreSQL) avec contrôle qualité des données ingérées et des réponses générées.</li>
+            <li>Développement d'outils d'aide à la décision (interface métier React, API FastAPI) et déploiement Docker.</li>
+            <li>Cadrage des besoins, prototypage, recette métier et suivi de la mise en production.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
