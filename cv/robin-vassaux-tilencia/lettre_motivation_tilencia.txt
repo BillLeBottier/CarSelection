@@ -1,0 +1,23 @@
+Madame, Monsieur,
+
+C'est avec un réel intérêt que je vous adresse ma candidature pour la mission de développement Python proposée par Tilencia, dans le cadre de la migration des traitements ETL Informatica PowerCenter vers Python. Diplômé en 2025 de l'ESME en Ingénieur Big Data et Digital Marketing, je souhaite mettre mon expérience en Python, en transformation de données et en industrialisation de pipelines au service d'un projet d'harmonisation d'architectures applicatives, dans un environnement exigeant et collaboratif.
+
+Ce poste m'attire d'abord par la nature concrète de la mission. Participer à la migration de traitements ETL vers un framework Python moderne, sur des applications liées aux référentiels Identités, Organisations et Rôles, correspond pleinement à mon projet professionnel. J'apprécie les contextes où la qualité du code, la fiabilité des données et la maintenabilité des traitements sont centrales. Tilencia me séduit également par son ADN : une société de conseil à taille humaine, centrée sur l'accompagnement des talents, le coaching et la conception de solutions sur mesure. Rejoindre une équipe qui valorise à la fois l'exigence technique et le plaisir de travailler ensemble représente pour moi un cadre idéal pour progresser.
+
+Ma formation et mon parcours m'ont permis de développer une solide pratique de Python et du traitement de données. Je maîtrise notamment Python, les principes de programmation orientée objet, Pandas, SQL, ainsi que la conception de pipelines ETL/ELT (collecte, nettoyage, transformation, validation et contrôle qualité). Habitué à travailler dans des environnements Agile, j'accorde une importance particulière à la rigueur, à la structuration du code, aux tests et à la documentation. J'ai également une expérience des environnements de déploiement modernes (Docker, Git, CI/CD, cloud), ce qui me permettra de m'adapter rapidement à votre stack (framework interne, architecture conteneurisée, outils de collaboration et de livraison).
+
+Mes expériences professionnelles illustrent ma capacité à concevoir, développer et industrialiser des traitements de données fiables. Chez AULTA APP, j'ai conçu et automatisé des pipelines Python de transformation de données, en assurant le contrôle qualité, l'optimisation des performances, les tests et la collaboration avec l'équipe produit sur la définition des besoins. Chez WAYNIUM, j'ai développé une solution backend en Python autour de traitements de données et d'IA, en structurant les flux, en évaluant la qualité des sorties et en documentant les choix techniques pour faciliter le transfert de compétences. Ces expériences m'ont familiarisé avec des responsabilités proches de celles de la mission : partir de spécifications, développer dans un cadre existant, tester, livrer et documenter.
+
+Mes projets viennent renforcer cette adéquation. Lauréat des Master Projects 2025 à l'ESME, j'ai contribué à une application Fullstack avec optimisation de traitements de données, structuration des flux et coordination d'équipe. J'ai également conçu un assistant documentaire basé sur le RAG, avec pipeline d'ingestion, API FastAPI, PostgreSQL et déploiement Docker. Ce projet m'a permis de couvrir le cycle complet : conception, développement, tests, documentation et mise en production.
+
+Au-delà de la technique, je suis motivé par la posture de collaborateur fiable et autonome. Rigoureux, structuré et à l'aise en équipe, j'apprécie les missions où il faut comprendre un existant, le moderniser avec méthode et accompagner les livraisons jusqu'aux environnements UAT et au-delà. Mon anglais C1 me permet également d'évoluer sereinement dans un contexte technique international si nécessaire.
+
+Rejoindre Tilencia sur cette mission, c'est pour moi l'opportunité de contribuer concrètement à une modernisation applicative à fort enjeu, de renforcer mon expertise en développement Python autour des traitements de données, et de m'investir dans un collectif exigeant et bienveillant. Je serais heureux d'échanger avec vous sur ma candidature et de vous démontrer ma motivation à m'investir pleinement dans cette mission.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+Robin Vassaux
+0646691030 — vassauxr@gmail.com
+Savigny-sur-Orge
+linkedin.com/in/robin-vassaux-4a6273272
+github.com/BillLeBottier
