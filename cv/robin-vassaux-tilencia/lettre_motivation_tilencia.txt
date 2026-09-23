@@ -1,0 +1,23 @@
+Madame, Monsieur,
+
+C'est avec un réel intérêt que je vous adresse ma candidature pour la mission de développement Python proposée par Tilencia, dans le cadre de la migration des traitements ETL Informatica PowerCenter vers Python. Diplômé en 2025 de l'ESME en Ingénieur Big Data et Digital Marketing, je souhaite mettre mon expérience en Python, en transformation de données et en industrialisation de pipelines au service d'un projet d'harmonisation d'architectures applicatives.
+
+Ce poste m'attire par la nature concrète de la mission. Participer à la migration de traitements ETL vers un framework Python moderne, sur des applications liées aux référentiels Identités, Organisations et Rôles, correspond pleinement à mon projet professionnel. J'apprécie les contextes où la qualité du code, la fiabilité des données et la maintenabilité des traitements sont centrales. Tilencia me séduit également par son ADN : une société de conseil à taille humaine, centrée sur l'accompagnement des talents, le coaching et la conception de solutions sur mesure.
+
+Ma formation et mon parcours m'ont permis de développer une solide pratique de Python et du traitement de données. Je maîtrise notamment Python, la programmation orientée objet, Pandas, SQL, ainsi que la conception de pipelines ETL/ELT (collecte, nettoyage, transformation, validation et contrôle qualité). Habitué aux environnements Agile, j'accorde une importance particulière à la rigueur, à la structuration du code, aux tests et à la documentation. Mon expérience des environnements de déploiement modernes (Docker, Git, CI/CD, cloud) me permettra de m'adapter rapidement à votre stack conteneurisée et à vos outils de livraison.
+
+Mes expériences illustrent ma capacité à concevoir, développer et industrialiser des traitements de données fiables. Chez AULTA APP, j'ai automatisé des pipelines Python de transformation de données, en assurant le contrôle qualité, l'optimisation des performances et la collaboration avec l'équipe produit. Chez WAYNIUM, j'ai développé une solution backend en Python autour de traitements de données et d'IA, en structurant les flux, en évaluant la qualité des sorties et en documentant les choix techniques. Ces expériences m'ont familiarisé avec des responsabilités proches de la mission : partir de spécifications, développer dans un cadre existant, tester, livrer et documenter.
+
+Mes projets renforcent cette adéquation. Lauréat des Master Projects 2025 à l'ESME, j'ai contribué à une application Fullstack avec optimisation de traitements de données et coordination d'équipe. J'ai également conçu un assistant documentaire basé sur le RAG, avec pipeline d'ingestion, API FastAPI, PostgreSQL et déploiement Docker, couvrant le cycle complet : conception, développement, tests, documentation et mise en production.
+
+Rigoureux, structuré et à l'aise en équipe, j'apprécie les missions où il faut comprendre un existant, le moderniser avec méthode et accompagner les livraisons jusqu'en UAT. Mon anglais C1 me permet d'évoluer sereinement dans un contexte technique international.
+
+Rejoindre Tilencia, c'est pour moi l'opportunité de contribuer à une modernisation applicative à fort enjeu et de renforcer mon expertise Python autour des traitements de données. Je serais heureux d'échanger avec vous sur ma candidature.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+Robin Vassaux
+0646691030 — vassauxr@gmail.com
+Savigny-sur-Orge
+linkedin.com/in/robin-vassaux-4a6273272
+github.com/BillLeBottier
